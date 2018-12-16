@@ -60,13 +60,17 @@ npm start
 
 The application shows the top 500 stories listed on HN.
 It shows each Story [score, title, author, text] loaded in a grid template with shortened text.
+
 ![Web Interface][web_closed]
 
 On the click event the grid items expand revealing the text with more text.
+
 ![Web Interface Expanded][web_expanded]
 
 It also works on mobile resolutions.
+
 ![Mobile Interface][mobile_closed]
+
 ![Mobile Interface Expanded][mobile_expanded]
 
 [mobile_closed]: /designs/HN_initial_480p_closed.png
