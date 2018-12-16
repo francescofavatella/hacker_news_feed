@@ -1,0 +1,418 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Story with author prop matches snapshot 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="leftColumn"
+  >
+    <div
+      className=""
+    >
+      <div
+        className="arrowUp"
+      />
+      <div
+        className="score"
+      >
+        -1
+      </div>
+    </div>
+  </div>
+  <div
+    className="rigthColumn"
+  >
+    <div
+      className="title"
+    >
+      
+    </div>
+    <div
+      className="author"
+    >
+      By customAuthor
+    </div>
+    <div
+      className="text"
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "",
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`Story with no props matches snapshot 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="leftColumn"
+  >
+    <div
+      className=""
+    >
+      <div
+        className="arrowUp"
+      />
+      <div
+        className="score"
+      >
+        -1
+      </div>
+    </div>
+  </div>
+  <div
+    className="rigthColumn"
+  >
+    <div
+      className="title"
+    >
+      
+    </div>
+    <div
+      className="author"
+    >
+      By 
+    </div>
+    <div
+      className="text"
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "",
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`Story with score prop matches snapshot 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="leftColumn"
+  >
+    <div
+      className=""
+    >
+      <div
+        className="arrowUp"
+      />
+      <div
+        className="score"
+      >
+        100
+      </div>
+    </div>
+  </div>
+  <div
+    className="rigthColumn"
+  >
+    <div
+      className="title"
+    >
+      
+    </div>
+    <div
+      className="author"
+    >
+      By 
+    </div>
+    <div
+      className="text"
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "",
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`Story with text prop: with a short text prop it should show the same text matches snapshot 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="leftColumn"
+  >
+    <div
+      className=""
+    >
+      <div
+        className="arrowUp"
+      />
+      <div
+        className="score"
+      >
+        -1
+      </div>
+    </div>
+  </div>
+  <div
+    className="rigthColumn"
+  >
+    <div
+      className="title"
+    >
+      
+    </div>
+    <div
+      className="author"
+    >
+      By 
+    </div>
+    <div
+      className="text"
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "customText",
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`Story with text prop: with a very long text and expanded=false props it should show the small text matches snapshot 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="leftColumn"
+  >
+    <div
+      className=""
+    >
+      <div
+        className="arrowUp"
+      />
+      <div
+        className="score"
+      >
+        -1
+      </div>
+    </div>
+  </div>
+  <div
+    className="rigthColumn"
+  >
+    <div
+      className="title"
+    >
+      
+    </div>
+    <div
+      className="author"
+    >
+      By 
+    </div>
+    <div
+      className="text"
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "Lorem Ipsum is simply ...",
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`Story with text prop: with a very long text and expanded=true props it should show the full text matches snapshot 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="leftColumn"
+  >
+    <a
+      className=" cursor"
+      href=""
+      onClick={[Function]}
+      target="_blank"
+    >
+      <div
+        className="arrowUp"
+      />
+      <div
+        className="score"
+      >
+        -1
+      </div>
+    </a>
+  </div>
+  <div
+    className="rigthColumn"
+  >
+    <a
+      className="title cursor"
+      href=""
+      onClick={[Function]}
+      target="_blank"
+    >
+      
+    </a>
+    <div
+      className="author"
+    >
+      By 
+    </div>
+    <div
+      className="text"
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`Story with title prop: with a short title prop it should show the same title matches snapshot 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="leftColumn"
+  >
+    <div
+      className=""
+    >
+      <div
+        className="arrowUp"
+      />
+      <div
+        className="score"
+      >
+        -1
+      </div>
+    </div>
+  </div>
+  <div
+    className="rigthColumn"
+  >
+    <div
+      className="title"
+    >
+      customTitle
+    </div>
+    <div
+      className="author"
+    >
+      By 
+    </div>
+    <div
+      className="text"
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "",
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`Story with title prop: with a very long title and expanded=false props it should show the small title matches snapshot 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="leftColumn"
+  >
+    <div
+      className=""
+    >
+      <div
+        className="arrowUp"
+      />
+      <div
+        className="score"
+      >
+        -1
+      </div>
+    </div>
+  </div>
+  <div
+    className="rigthColumn"
+  >
+    <div
+      className="title"
+    >
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+    </div>
+    <div
+      className="author"
+    >
+      By 
+    </div>
+    <div
+      className="text"
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "",
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`Story with title prop: with a very long title and expanded=true props it should show the long title matches snapshot 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="leftColumn"
+  >
+    <a
+      className=" cursor"
+      href=""
+      onClick={[Function]}
+      target="_blank"
+    >
+      <div
+        className="arrowUp"
+      />
+      <div
+        className="score"
+      >
+        -1
+      </div>
+    </a>
+  </div>
+  <div
+    className="rigthColumn"
+  >
+    <a
+      className="title cursor"
+      href=""
+      onClick={[Function]}
+      target="_blank"
+    >
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with deskto...
+    </a>
+    <div
+      className="author"
+    >
+      By 
+    </div>
+    <div
+      className="text"
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "",
+        }
+      }
+    />
+  </div>
+</div>
+`;

@@ -1,0 +1,48 @@
+.container {
+  padding: 5px;
+  display: grid;
+  grid-template-columns: 25px 1fr;
+  grid-gap: 1em;
+}
+
+.rigthColumn {
+  text-align: left;
+  overflow: hidden;
+}
+
+.arrowUp {
+  width: 0;
+  height: 0;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-bottom: 7px solid black;
+  margin: 5px auto;
+}
+.score {
+  font-size: 0.8em;
+  text-align: center;
+}
+.titleLink {
+}
+.title {
+  letter-spacing: 0.5px;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+.author {
+  letter-spacing: 0.4px;
+  margin-top: 4px;
+  font-size: 0.8em;
+  opacity: 0.7;
+}
+.text {
+  margin-top: 10px;
+  font-size: 1em;
+  max-height: 340px;
+  overflow: auto;
+}
+.cursor {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}

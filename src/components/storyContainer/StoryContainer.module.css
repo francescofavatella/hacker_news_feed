@@ -1,0 +1,26 @@
+.storyContainer {
+  padding: 0.3em;
+  border-radius: 2px;
+  opacity: 0.8;
+  transition: 0.3s;
+  height: 100%;
+}
+.storyContainer:hover {
+  opacity: 1;
+}
+
+.storyContainerSmall {
+  background-color: lightgray;
+}
+.storyContainerLarge {
+  background-color: #ff8400;
+  color: #000;
+  grid-row: span 2;
+}
+
+@media only screen and (min-width: 700px) {
+  .storyContainerLarge {
+    grid-column: span 2;
+    max-height: 2fr;
+  }
+}

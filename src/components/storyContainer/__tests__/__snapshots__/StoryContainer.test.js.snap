@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StoryContainer loading data should show Story if success 1`] = `
+<li
+  className="storyContainer storyContainerSmall"
+  onClick={[Function]}
+>
+  <Story
+    author="Author_mock"
+    expanded={false}
+    score={11}
+    storyUrl="storyUrl_mock"
+    text="Text_mock"
+    title="Title_mock"
+    upvotingUrl="upvotingUrl_mock"
+  />
+</li>
+`;
+
+exports[`StoryContainer loading data should show StoryFailed if error 1`] = `
+<StoryFailed
+  storyId={1}
+/>
+`;
+
+exports[`StoryContainer on click event should close the story if it is expanded 1`] = `
+<li
+  className="storyContainer storyContainerSmall"
+  onClick={[Function]}
+>
+  <Story
+    author="Author_mock"
+    expanded={false}
+    score={11}
+    storyUrl="storyUrl_mock"
+    text="Text_mock"
+    title="Title_mock"
+    upvotingUrl="upvotingUrl_mock"
+  />
+</li>
+`;
+
+exports[`StoryContainer on click event should expand the story if it is closed 1`] = `
+<li
+  className="storyContainer storyContainerLarge"
+  onClick={[Function]}
+>
+  <Story
+    author="Author_mock"
+    expanded={true}
+    score={11}
+    storyUrl="storyUrl_mock"
+    text="Text_mock"
+    title="Title_mock"
+    upvotingUrl="upvotingUrl_mock"
+  />
+</li>
+`;
+
+exports[`StoryContainer with no props matches snapshot 1`] = `
+<li>
+  loading...
+</li>
+`;
