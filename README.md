@@ -1,4 +1,5 @@
 # Hacker News Feed
+[![Build Status](https://travis-ci.org/francescofavatella/hacker_news_feed.svg?branch=master)](https://travis-ci.org/francescofavatella/hacker_news_feed)
 
 ## Overview
 
