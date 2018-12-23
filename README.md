@@ -79,6 +79,18 @@ It also works on mobile resolutions.
 [web_closed]: /designs/HN_initial_1920p_closed.png
 [web_expanded]: /designs/HN_initial_1920p_expanded.png
 
+## How to run it as a Docker container
+
+### Build a Docker image
+```
+docker build -t hacker-news-feed .
+```
+
+### Run as a Docker container
+```
+winpty docker run -it --rm -p 3000:3000 hacker-news-feed
+```
+
 ## What's next
 
 - Complete the test suite with code refactoring
